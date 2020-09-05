@@ -1,0 +1,195 @@
+.bar{
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    background-color: #FC97E3 ;
+    position: fixed;
+}
+
+.a{
+    width: 90%;
+    display: inline-block;
+    
+}
+
+.home{
+    margin: 10px;
+    padding: 14px;
+    background-color: #4EEBEA;
+    color: #fff;
+    text-decoration: none;
+}
+
+.b{
+    display: inline;
+    margin: 10px;
+}
+
+.fa-facebook ,.fa-twitter ,.fa-instagram {
+    color: #fff;
+}
+
+
+.mysideitems a {
+    margin: 60px;
+    width: 120px;
+    padding: 10px;
+    font-family: "Times New Roman", Arial;
+    color:#fff;
+    border-radius: 3px;
+    position:fixed;
+    left: -160px;
+    transition: 0.9s;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.mysideitems a:hover{
+    left: 0;
+}
+
+.about{
+    background-color: #5499C7 ;
+    top: 20px;
+    }
+    
+.project{
+     background-color: #5499C7 ;
+     top: 80px;
+}
+
+.blog{
+    background-color: #5499C7 ;
+     top: 140px;
+}
+
+.contact{
+    background-color: #5499C7 ;
+     top: 200px;
+}
+
+*{
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+}
+.sticky{
+    margin-left: 70px;
+   padding: 40px;
+    width: 90%;
+  
+     
+}
+dt{
+    width: 100%;
+    padding: 10px;
+    background-color: #B4D1D2 ;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+    position: sticky;
+    top: 70px;
+}
+
+
+.fixed{
+   background-image: url("../images/images -11.jpg");
+   background-attachment: fixed;
+   background-size: 70% 50%;
+   width: 80%;
+   margin: 120px;
+   padding: 20px;
+   height: 500px;
+   background-repeat: repeat;
+}
+.fixed :hover :after{
+ position: absolute;
+   content: "This div hoverd";
+   background-color: rgba(247, 169, 229 ,0.5);
+   width: 60%;
+  font-size: 20px;
+  height: 80px;
+  display: block;
+   margin: 80px 30px;
+   padding: 50px;
+   
+}
+ .ho {
+   background-color: rgba(26, 239, 246 , 0.3);
+   max-height: 40px;
+   font-size: 20px;
+   padding: 10px;
+   overflow: hidden;
+   margin: 40px;
+   display: block;
+ }
+ .ho:hover{
+   max-height: 140px;
+ }
+ 
+ 
+ .relation{
+  background-image: url("../images/background-2076334_1280.jpg");
+  width: 80%;
+  background-attachment: scroll;
+   background-size: 300% 105%;
+   height: 600px;
+   margin: 120px 120px 0;
+   padding: 30px;
+   background-repeat: no-repeat;
+ }
+ 
+ .parent{
+  background-color: rgba(229, 163, 204  ,0.6);
+  padding: 20px;
+  font-size: 20px;
+  margin: 30px;
+  color: #fff;
+  
+ }
+ 
+ .direct-child > div{
+  background-color: rgba(91, 238, 237 ,0.6);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+ }
+ 
+ .bro {
+  background-color: rgba( 239, 207, 172, 0.5);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(249, 252, 252 , 0.4);
+  color: #D65FB9;
+ }
+ 
+ .parent p:hover~p{
+  background-color: rgba(229, 34, 181 ,0.4);
+  color: #fff;
+ }
+ 
+ .pseudo{
+  background-image: url("../images/v397-aum-26-leaf_2.jpg");
+  background-attachment: fixed;
+  background-size: 300% 120%;
+  margin: 20px;
+  height: 100px;
+  padding: 20px;
+ }
+ 
+ 
+ .pseudo p{
+  background-color: rgba(117, 205, 164, 0.4);
+  margin: 30px;
+  padding: 10px;
+  height: 100px;
+ }
+ .pseudo p:first-letter{
+  font-size: 30px;
+  background-color:#DDE1C4;
+  padding: 5px;
+  border-radius: 50px;
+ }
+ .pseudo p:first-line{
+  background-color: rgba( 207, 212, 172, 0.4);
+ }
