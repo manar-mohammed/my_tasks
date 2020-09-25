@@ -1,0 +1,172 @@
+/*start main rules */
+body{
+  margin:-10px;
+  background-color: #000;
+}
+
+.container{
+    width: 1300px;
+    margin: 10px auto;
+    }
+/*end main rules */
+
+/*start header*/
+header{
+    background-image: url('../images/abstract-digital-sound-wave-music-beats-background_43989-11.jpg');
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.nav{
+    background-color: #0cc;
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px;
+     border: 2px solid #ff589e;
+
+}
+.home{
+    list-style: none;
+    width: 50%
+}
+.a{
+    float: left;
+    margin:10px;
+}
+.a a{
+    text-decoration: none;
+    color: #fff;
+}
+.a a:hover{
+     color: #ff589e;
+}
+.act{
+    
+    padding: 10px;
+    border: 2px solid #ff589e;
+    border-radius: 10px;
+}
+.box{
+    float: right;
+}
+.search-box{
+    width: 77%;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #ff589e;
+    border-radius: 10px;
+}
+.search-button{
+    margin-right: 10px;
+}
+button .fa-search{
+    color: #ff589e;
+}
+.facebook, .twitter, .instegram{
+    margin: 70px;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    left:-260px;
+    transition: 0.6s ease-in-out all;
+    position:fixed;
+    border-radius: 20px;
+    border: 2px solid #ff589e;
+}
+.mysideitems a:hover{
+    left:0;
+}
+.facebook{
+    background-color:#990099;
+    top: 20px;
+}
+    
+.twitter{
+     background-color:#993399 ;
+     top: 80px;
+}
+
+.instegram{
+    background-color :#BB5FBF ;
+     top: 140px;
+}
+
+/*start Content*/
+.type{
+   margin-left: 500px;
+   margin-top: 200px; 
+    border-top: 3px solid #0cc;
+    border-bottom:  3px solid #0cc;
+    color: #fff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.rap{
+    width: 25%;
+    background-color:rgba(163, 123, 223,0.6);
+    height: 400px;
+    padding: 60px 25px;
+    margin-top: 70px;
+    float: left;
+    margin-left: 25px;
+    border: 3px solid #F36C99;
+    border-radius: 10px;
+}
+.music{
+    padding: 10px;
+}
+.star{
+    text-align: center;
+     border: 3px solid #F36C99;
+     border-radius: 10px;
+}
+audio{
+    width: 20px; 
+    text-align: center;
+}
+audio:hover{
+    width: 100%;
+}
+/*end Content*/
+/*end header*/
+
+/*start footer*/
+footer{
+    background-image: url("../images/preview16.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+label , .regist input{
+    display: block;
+}
+p, .regist input{
+    width: 100%;
+    background-color: rgba(7, 7, 7 ,0.4);
+    margin: 10px;
+    padding: 20px;
+    border:3px solid #7D6C72;
+    border-radius: 10px;
+}
+
+p , label{
+    text-align: center;
+    font-size: 20px;
+    font-family:"Comic Sans", "Comic Sans MS"," cursive";
+    color: #fff;
+}
+label{
+    width: 100%;
+    font-size: 15px;
+}
+.regist >input{
+    width: 90%;
+    color: #fff;
+    margin-left: 40px;
+}
+/*start footer*/
