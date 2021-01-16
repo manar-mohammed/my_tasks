@@ -107,7 +107,7 @@ body {
   background-image: url('../images/wp2831956.png');
   background-size:cover;
   height: 700px;
-  margin: -16px;
+  /*/margin: -16px;*/
   top: 65px;
   padding: 30px;
 }
@@ -129,7 +129,7 @@ body {
 /*end resize section properties*/
 
 /*start flex box section properties*/
-.flexbov{
+.flexbox{
   margin: 100px;
   padding: 15px;
   background-color: rgba(222, 223, 217, 0.6);
@@ -167,6 +167,7 @@ body {
  background-size: cover;
  height: 500px;
  padding: 50px;
+ margin: 0;
 }
 .cards{
  background-color: rgba(31, 29, 193 ,0.8);
@@ -325,4 +326,6 @@ padding-left: 20px;
  text-shadow: 3px 3px 8px #0000CC,
               -3px -3px 8px #0000CC;            
 }
+
+
 /*end opacity section properties*/
