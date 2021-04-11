@@ -1,0 +1,121 @@
+*{
+  box-sizing:border-box;
+}
+body {
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+
+/*top bar properties*/
+
+.title{
+    font-size: 33px;
+}
+
+
+.head p{
+    display: block;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    color: #FFB400;
+}
+
+.navbar-light .navbar-brand{
+     color: #FFB400;
+}
+.btn-outline-success{
+    color: #FFB400;
+    border-color: #FFB400;
+}
+.btn-outline-success:hover{
+    background: #FFB400;
+}
+/*end top bar properties*/
+
+/*first section properties*/
+.title{
+    margin-top: 2%;
+    margin-left: 2%; 
+    font-family: "Archivo Narrow";
+    font-weight: bold;
+    font-size: 50px
+}
+
+
+.card-header{
+   margin: 4%;
+   overflow: hidden;
+}
+.brand p{
+    width: 60%;
+    margin-top: 2%;
+    line-height: 30px;
+    margin-left: 2%;
+}
+.btn-warning{
+    background: #FFB400;
+    margin: 30px;
+}
+
+.tasks{
+    background-image: url('../images/flat-lay-office-supplies-with-mouse-headphones.jpg');
+    background-size: cover;
+    margin: 40px;
+    padding: 30px;
+}
+.brand img{
+    margin: 10px;
+    float: right;  /*did't work*/
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.tasks .card{
+    margin-left:  13%;
+    margin-top:20px;
+    margin-bottom: 20px;
+height: 200px;
+    padding: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 77px;
+}
+
+.tasks .card .fas{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.tasks .card .fas:hover{
+    color: #FFB400;
+}
+
+.our_team{
+    background-color: #292D33;
+    color: #fff;
+    padding-top: 40px;
+    min-height: 600px;
+}
+.our_team .person{
+    margin: 20px;
+}
+.our_team h1{
+    margin-bottom: 50px;
+}
+.our_team img{
+    width: 60%;
+    border-radius: 50% 50%;   /*img-circlr?*/ 
+}
+.our_team h3{
+    margin-bottom: 20px;
+}
+.our_team h4{
+    color: #FFB400;
+    margin-bottom: 20px;
+}
