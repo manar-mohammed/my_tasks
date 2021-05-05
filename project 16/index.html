@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="utf.8">
+            <title> manar_java </title>
+             <link rel="stylesheet" href="css/style.css"/>
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="css/brands.min.css"/>
+        
+        <link rel="stylesheet" href="css/fontawesome.min.css"/>
+        
+        <link rel="stylesheet" href="css/solid.min.css"/>
+        
+        </head>
+        
+        <body>
+            <!--start top bar-->
+           <nav class="topnav">
+                <a class="active" href="#home">Home</a>
+               <a href="#array">Array <i class="fas fa-sort-amount-down"></i></a>
+                <a href="#boolean">Boolean <i class="fas fa-file-signature"></i></a>
+                <a href="#sum">Sum  <i class="fas fa-plus"></i></a>
+                <a href="#average ">Average <i class="fas fa-paste"></i></a>
+                <a href="#invoking">Self-Invoking Functions  <i class="fas fa-robot"></i></a>
+                <div class="search-container">
+                  <form >
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">search<i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+            </nav>
+            <!--end top bar-->
+            
+            <!--start section No.1 -->
+            <section id="array" class="con">
+                <div>
+                   <div class="enter"> <p>enter the number of elements you want to enter (maximum 5)</p></div>
+                    <input type="text" class="enter" id="num" placeholder="type the number here ...">
+                    <button class="time" onclick=" isNaN(document.getElementById('num').value) || document.getElementById('num') .value == '' ? (confirm ('type valid number') ? alert ('good') : alert ('not aprroved ans')) : oddOrEven (Number(document.getElementById('num').value))">make array</button>
+                    <div id="user"></div>
+                    
+                </div>
+            </section> <hr>
+            <!--end section No.1 -->
+            
+            <!--start section No.2 -->
+            
+            <section id="sum" class="con">
+                 <div class="enter"><p>enter number of chickens </p></div>
+                 <input type="text" class="enter" id="chi" placeholder="type the number here ...">
+                 <div class="enter"><p>enter number of cows </p></div>
+                 <input type="text" class="enter" id="cow" placeholder="type the number here ...">
+                 <div class="enter"><p>enter number of pigs </p></div>
+                 <input type="text" class="enter" id="pig" placeholder="type the number here ...">
+                  <div class="enter">the plus of them is : <span id="result"></span> </div>
+                <button class="click" onclick="sum()">add</button>     
+            </section> <hr>
+            
+             <!--end section No.2 -->
+            
+            <!--start section No.3 -->
+            
+            <section id="average" class="con">
+                <div class="enter"><p>enter your age</p></div>
+                <input type="text" class="enter" id="age" placeholder="type the number here ...">
+                <div class="enter"><p>enter the number of houses you had lived in</p></div>
+                <input type="text" class="enter" id="house" placeholder="type the number here ...">
+                <div class="enter">the average of them is : <span id="result2"></span> </div>
+                <button class="click" onclick="ave()">ave</button>  
+            </section> <hr>
+            <!--end section No.3 -->
+            
+            <!--start section No.4 -->
+            <section id="invoking" class="con">
+                <div class="enter"><p>self Invoking Function example </p></div>
+                <div class="enter"><span id="result3"></span> </div> 
+            </section>
+            
+            
+            <script src="js/text1.js" charset="utf.8"></script>
+            <script src ="js/brands.min.js" charset="utf.8"></script>
+            <script src ="js/fontawesome.min.js" charset="utf.8"></script>
+            <script src ="js/solid.min.js" charset="utf.8"></script> 
+        </body>
